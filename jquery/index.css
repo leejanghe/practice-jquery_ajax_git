@@ -3,5 +3,24 @@
     padding: 20px;
     color: white;
     border-radius: 5px;
-    display: none;
+    /* display: none; */
   } 
+
+  .box-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    background-color: rgb(188, 188, 215);
+  }
+  
+  .btn-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    /* width: 80%; */
+  }
