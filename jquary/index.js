@@ -1,13 +1,12 @@
-console.log('hello world')
+const openbtn = document.querySelector('.openBtn');
+const closebtn = document.querySelector('.closeBtn');
+const alertBox = document.querySelector('.alert-box');
 
-const btn = document.querySelector('button')
-const h1Tag = document.getElementById('hello')
-const textTag = document.querySelector('h2')
+openbtn.addEventListener('click', function() {
+    console.log(alertBox)
+    alertBox.style.display = 'block';
+})
 
-
-btn.addEventListener('click', function(){
-    console.log(h1Tag)
-    h1Tag.innerHTML = '안녕!'
-    h1Tag.style.fontSize = '16px'
-    textTag.innerHTML = 'Js고수예욤'
+closebtn.addEventListener('click', function() {
+    alertBox.style.display = 'none';
 })
