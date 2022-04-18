@@ -24,3 +24,16 @@
     margin: 0 auto;
     /* width: 80%; */
   }
+
+
+  /* intexTest css*/
+
+  .list-group{
+    display: none;
+    color: red;
+  }
+
+  .test{
+    color:red;
+    display: none;
+  }
